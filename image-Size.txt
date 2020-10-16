@@ -1,0 +1,7 @@
+image  width*height
+slider 13600 *700
+WHY CHOOSE US 540*540
+Ask adoctor 13600*480
+
+
+https://fontawesome.com/
