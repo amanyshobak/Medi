@@ -491,11 +491,11 @@ header .navbar .dropdown-menu a {
   background: #27a7c6;
 }
 
-.home-feature .two-col {
+.home-feature .two-col,.home-feature .element-animate:nth-child(2) {
   background: #216995;
 }
 
-.home-feature .three-col {
+.home-feature .three-col.home-feature .element-animate:nth-child(3) {
   background: #184f76;
 }
 
@@ -779,4 +779,60 @@ header .navbar .dropdown-menu a {
   background-color: #216995;
   border-color: #216995;
 
+}
+
+
+
+
+.custom-control-input {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 1rem;
+  height: 1.25rem;
+  opacity: 0;
+}
+.custom-control-label {
+  position: relative;
+  margin-bottom: 0;
+  vertical-align: top;
+}
+.custom-control-label::before {
+  position: absolute;
+  top: .25rem;
+  left: -1.5rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  pointer-events: none;
+  content: "";
+  background-color: #fff;
+  border: #adb5bd solid 1px;
+}
+.custom-control-label::after {
+  position: absolute;
+  top: .25rem;
+  left: -1.5rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  content: "";
+  background: no-repeat 50%/50% 50%;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+  content: "\f00c";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;    font-size: 13px;
+  text-align: center;
+  line-height: 15px;
+}
+.custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #27a7c6;
+  background-color: #27a7c6;
 }
