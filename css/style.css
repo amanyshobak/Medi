@@ -44,7 +44,7 @@ header .navbar-brand {
 }
 
 header .navbar-brand span {
-  color: #27a7c6;
+  color: #2b86c5;
 }
 
 header .top-bar {
@@ -63,6 +63,12 @@ header .top-bar .cta-btn {
   padding-right: 15px;
   padding-left: 15px;
   background: #6b3ed7;
+  background: rgb(43,134,197);
+background: -moz-linear-gradient(90deg, rgba(43,134,197,1) 0%, rgba(120,75,160,1) 50%, rgba(255,60,172,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(43,134,197,1) 0%, rgba(120,75,160,1) 50%, rgba(255,60,172,1) 100%);
+background: linear-gradient(90deg, rgba(43,134,197,1) 0%, rgba(120,75,160,1) 50%, rgba(255,60,172,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2b86c5",endColorstr="#ff3cac",GradientType=1);
+
 }
 
 header .top-bar .cta-btn:hover {
@@ -95,7 +101,7 @@ header .top-bar .social li a {
 }
 
 header .top-bar .social li a:hover {
-  background: #6b3ed7;
+  background: #2c85c5;
   color: #fff;
   -webkit-box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.1);
@@ -127,7 +133,7 @@ header .navbar .nav-link {
 }
 
 header .navbar .nav-link.active {
-  color: #27a7c6 !important;
+  color: #2c85c5 !important;
 }
 
 header .navbar .dropdown-menu {
@@ -140,7 +146,7 @@ header .navbar .dropdown-menu {
 
 header .navbar .dropdown-menu .dropdown-item.active {
   background: #f8f9fa;
-  color: #27a7c6 !important;
+  color: #2b86c5 !important;
 }
 
 header .navbar .dropdown-menu a {
@@ -198,7 +204,7 @@ header .navbar .dropdown-menu a {
 }
 
 .owl-carousel .owl-dots .owl-dot.active {
-  background: #27a7c6;
+  background: #2b86c5;
 }
 
 .owl-carousel.home-slider {
@@ -436,7 +442,7 @@ header .navbar .dropdown-menu a {
   left: 0;
   right: 0;
   padding: 20px;
-  background: #6b3ed7;
+  background: rgb(120,75,160);
   z-index: -1;
   color: #fff;
   -webkit-box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.4);
@@ -453,7 +459,7 @@ header .navbar .dropdown-menu a {
 }
 
 .home-feature .one-col .btn-more:hover, .home-feature .two-col .btn-more:hover, .home-feature .three-col .btn-more:hover {
-  background: #6fcfdd;
+  background: #2b86c5;
 }
 
 .home-feature .one-col:hover, .home-feature .two-col:hover, .home-feature .three-col:hover {
@@ -504,7 +510,13 @@ header .navbar .dropdown-menu a {
 }
 
 .cta-link {
-  background: #27a7c6;
+  background: rgb(43,134,197);
+  background: -moz-linear-gradient(90deg, rgba(43,134,197,1) 0%, rgba(120,75,160,1) 50%, rgba(255,60,172,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(43,134,197,1) 0%, rgba(120,75,160,1) 50%, rgba(255,60,172,1) 100%);
+  background: linear-gradient(90deg, rgba(43,134,197,1) 0%, rgba(120,75,160,1) 50%, rgba(255,60,172,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2b86c5",endColorstr="#ff3cac",GradientType=1);
+
+
   padding: 3.5em 0 3em 0;
   display: block;
   text-align: center;
@@ -526,7 +538,7 @@ header .navbar .dropdown-menu a {
 
 .cta-link .heading {
   font-size: 50px;
-  color: #001933;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -536,7 +548,7 @@ header .navbar .dropdown-menu a {
 }
 
 .cta-link:hover {
-  background: #216995;
+  background: #2b86c5;
 }
 
 .cover_1 {
@@ -558,6 +570,7 @@ header .navbar .dropdown-menu a {
 
 .heading {
   color: #110f4c;
+  font-weight: bolder;
   padding-bottom: 30px;
 }
 
@@ -592,11 +605,18 @@ header .navbar .dropdown-menu a {
 
 .media-feature .icon {
   font-size: 60px;
-  color: #27a7c6;
+  color: #2b86c5;
 }
-
+.media-feature span {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .media-feature h3 {
   font-size: 20px;
+  color: #110f4c;
+  font-weight: 500;
 }
 
 .media-custom {
@@ -680,7 +700,7 @@ header .navbar .dropdown-menu a {
 
 .custom-tabs .nav-pills .nav-link.active {
   background: none;
-  color: #27a7c6;
+  color: #2b86c5;
   padding-left: 20px;
   position: relative;
 }
@@ -698,7 +718,7 @@ header .navbar .dropdown-menu a {
 .custom-tabs .tab-pane .icon {
   font-size: 60px;
   display: block;
-  color: #27a7c6;
+  color: #2b86c5;
 }
 
 .custom-tabs .tab-pane h2 {
@@ -772,13 +792,22 @@ header .navbar .dropdown-menu a {
 }.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
   color: rgb(39 167 198);
 }.btn-primary {
+border: 0px;
+  background-color: #2b86c5;
+  border-color: #2b86c5;
 
-  background-color: #27a7c6;
-  border-color: #27a7c6;
+  background: rgb(43,134,197);
+  background: -moz-linear-gradient(90deg, rgba(43,134,197,1) 0%, rgba(120,75,160,1) 50%, rgba(255,60,172,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(43,134,197,1) 0%, rgba(120,75,160,1) 50%, rgba(255,60,172,1) 100%);
+  background: linear-gradient(90deg, rgba(43,134,197,1) 0%, rgba(120,75,160,1) 50%, rgba(255,60,172,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2b86c5",endColorstr="#ff3cac",GradientType=1);
+
+
+
 }.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle,.btn-primary:hover {
 
-  background-color: #216995;
-  border-color: #216995;
+  background-color: #2b86c5;
+  border-color: #2b86c5;
 
 }
 
@@ -834,8 +863,8 @@ header .navbar .dropdown-menu a {
 }
 .custom-control-input:checked~.custom-control-label::before {
   color: #fff;
-  border-color: #27a7c6;
-  background-color: #27a7c6;
+  border-color: #2b86c5;
+  background-color: #2b86c5;
 }.owl-carousel.home-slider .slider-item:after {
   content:'';
   position: absolute;
@@ -854,4 +883,23 @@ header .navbar .dropdown-menu a {
 .FAQ .card-header {
 
   border-bottom: 0px solid rgba(0, 0, 0, 0.125); 
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255,1 )' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 400px) {
+  header .top-bar {
+    display: none;
+  }
+  .h4, h4 {
+    font-size: 1.2rem;
+}
+}
+.page-item.active .page-link {
+
+  background-color: rgba(255,60,172,1);
+  border-color: rgba(255,60,172,1);
+}.page-link {
+  color: rgba(255,60,172,1);
 }

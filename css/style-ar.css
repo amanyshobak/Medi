@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Arabic';
+    font-style: normal;
+    font-weight: 700; 
+    src: url('../fonts/Arabic/GESSUniqueBold-Bold.eot');
+    src: url('../fonts/Arabic/GESSUniqueBold-Bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/Arabic/GESSUniqueBold-Bold.woff2') format('woff2'),
+   /* src: url("{{ 'assets/fonts/Arabic/GESSUniqueBold-Bold.svg#GlOrYbOlD'|theme }}") format('svg'), */
+    url('../fonts/Arabic/GESSUniqueBold-Bold.ttf') format('truetype'),
+    url('../fonts/Arabic/GESSUniqueBold-Bold.woff') format('woff');
+}
+body,.main_menu .main-menu-item ul li a,.banner_part .banner_text h1,.banner_part .banner_text p,
+h1, h2, h3, h4, h5, h6,p,.btn_3{
+    font-family: 'Arabic' ;
+}
+.banner_part {
+  
+    background-position: top left;
+}
+.banner_part .video_popup span {
+ 
+
+    margin-left: 18px;
+    margin-right: 37px;
+}.btn_3 i {
+       margin-right: 11px;    margin-left: 0px;
+    transform: rotate(180deg);
+    display: inline-block;
+}
+.btn_3 {
+  
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.btn_3:after {
+
+    left: initial;
+    right: 0;
+}
+.blog_right_sidebar .popular_post_widget .post_item .media-body {
+
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.blog-info-link li {
+    float: right;
+}
+.blog-info-link li i, .blog-info-link li span {
+  
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+@media (min-width: 768px){
+
+.blog_item_img .blog_item_date {
+    
+    left: initial;
+   
+    right: 40px;
+}
+}
+.rainlab-forum .forum-posts .forum-post .avatar {
+   
+    float: right !important;
+  
+}
+.rainlab-forum .forum-posts .forum-post > .avatar ~ .content {
+  
+    margin-left: 0;
+    margin-right: 60px;
+}
+.rainlab-forum .forum-posts .forum-post .metadata {
+  
+    margin-left: 0;
+    margin-right: 3px;
+}
+.contact-info__icon {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.custom-tabs .nav-pills .nav-link.active:before {
+   
+    left: initial;
+    right: 0;
+ 
+}
